@@ -1,0 +1,11 @@
+Configuracao da BD na VM Azure — usar variaveis de ambiente no backend/.env:
+
+    DB_NAME=seprojeto
+    DB_USER=grupo
+    DB_PASSWORD=<pedir ao grupo / gestor de segredos>
+    DB_HOST=bd2pm.duckdns.org
+    DB_PORT=5433
+
+NOTA: a password NUNCA deve ser escrita neste ficheiro nem em qualquer
+ficheiro versionado no git. A password antiga foi exposta no historico
+do repositorio e deve ser alterada no PostgreSQL da VM.

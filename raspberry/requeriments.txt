@@ -1,0 +1,4 @@
+requests>=2.32.0        # Cliente HTTP
+RPi.GPIO>=0.7.1         # GPIO
+hx711>=1.2.0            # Sensor de peso
+python-dotenv>=1.0.0    # Variáveis ambiente

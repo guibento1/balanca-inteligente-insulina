@@ -1,0 +1,25 @@
+# Segredos / variaveis de ambiente
+.env
+.env.*
+
+# Raspberry Pi environment variables
+raspberry/.env
+!raspberry/.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Base de dados local
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
